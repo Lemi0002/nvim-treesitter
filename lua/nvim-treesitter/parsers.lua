@@ -1566,6 +1566,15 @@ list.verilog = {
   maintainers = { "@zegervdv" },
 }
 
+list.vhdl = {
+  install_info = {
+    url = "https://github.com/alemuller/tree-sitter-vhdl",
+    files = { "src/parser.c" },
+    branch = "main",
+  },
+  maintainers = { "@alemuller" },
+}
+
 list.vhs = {
   install_info = {
     url = "https://github.com/charmbracelet/tree-sitter-vhs",
