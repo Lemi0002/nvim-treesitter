@@ -256,4 +256,4 @@
 ;;
 (comment) @comment
 
-(ERROR) @ERROR
+; (ERROR) @ERROR
