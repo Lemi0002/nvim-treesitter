@@ -72,7 +72,7 @@
   "range"
   "downto"
   "to"
-] @repeat
+] @keyword.repeat
 
 [
   "?"
@@ -87,7 +87,7 @@
   "wait"
   "when"
   "with"
-] @conditional
+] @keyword.conditional
 
 [
   "assert"
@@ -99,13 +99,13 @@
   "restrict_guarantee"
   "strong"
   "fairness"
-] @exception
+] @keyword.exception
 
 [
   "library"
   "use"
   "context"
-] @include
+] @keyword.import
 
 [
   "function"
@@ -239,7 +239,7 @@
 [
   (real_decimal)
   (based_real)
-] @float
+] @number.float
 
 (string_literal) @string
 
